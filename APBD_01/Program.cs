@@ -6,8 +6,10 @@ namespace APBD_01
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
-            string input = Console.ReadLine();
+            Console.WriteLine("Enter your name:");
+            string name = Console.ReadLine();
+            
+            Console.WriteLine("Hello " + name);
         }
     }
 }
