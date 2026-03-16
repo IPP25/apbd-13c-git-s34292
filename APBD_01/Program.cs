@@ -10,6 +10,8 @@ namespace APBD_01
             string name = Console.ReadLine();
             
             Console.WriteLine("Hello " + name);
+            
+            //usome change
         }
     }
 }
