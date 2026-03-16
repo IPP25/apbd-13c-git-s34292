@@ -12,5 +12,16 @@ namespace APBD_01
             foreach (int i in values) sum += i;
             return sum / values.Length;
         }
+
+        public int CalculateMin(int[] values)
+        {   
+            if (values == null || values.Length == 0) return int.MaxValue;
+            int min = values[0];
+            for (int i = 1; i < values.Length; i++)
+            {
+                if (values[i] < min) min = values[i];
+            }
+            return 0;
+        }
     }
 }
