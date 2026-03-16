@@ -7,9 +7,9 @@ namespace APBD_01
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter your name:");
-            string name = Console.ReadLine();
+            string name2 = Console.ReadLine();
             
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Hello " + name2);
             
             //usome change
         }
